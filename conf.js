@@ -1,20 +1,5 @@
+
 exports.config = {
-		directConnect : true ,
-
-
-  specs: ['pageObject.js'],
-
-jasmineNodeOpts : {
-	showColors : true ,
-	defaultTimeoutInterval: 50000000
-
-}
-  
-
-
-};
-
-/*exports.config = {
 		 directConnect: true,
 		  //seleniumAddress: 'http://localhost:4444/wd/hub',
 		  
@@ -22,10 +7,10 @@ jasmineNodeOpts : {
 		  //specs: ['first.js','datatypes.js','object_example.js']
 		  specs: ['pageObject.js'],
 		  
-		 capabilities: {
+		 /*capabilities: {
 			    'browserName': 'firefox'
 			  },
-			  
+			  */
 		  jasmineNodeOpts: {
 			  //showColors: true,
 			  defaultTimeoutInterval: 100000,
@@ -33,4 +18,4 @@ jasmineNodeOpts : {
 			   }
 
 			// framework: 'jasmine' ,
-		};*/
+		};

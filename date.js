@@ -1,6 +1,6 @@
 var numberOfRepeat = 15;
 var date = {
-		
+		//f
 	clickNth: function(by, index, i){
         if(!i){
             i=1;
